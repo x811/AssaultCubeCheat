@@ -1,0 +1,19 @@
+﻿  imgui.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+C:\Users\x811r\source\repos\ac_cheat\ac_cheat\Menu\ImGui\imgui_widgets.cpp(1097,89): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\x811r\source\repos\ac_cheat\ac_cheat\Menu\ImGui\imgui_widgets.cpp(1097,72): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Menu.cpp
+  CAimbot.cpp
+  glDrawElements.cpp
+  wglSwapBuffers.cpp
+  wndProc.cpp
+  Misc.cpp
+  DllMain.cpp
+  Создание кода
+  1197 of 1444 functions (82.9%) were compiled, the rest were copied from previous compilation.
+    244 functions were new in current compilation
+    20 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  ac_cheat.vcxproj -> C:\Users\x811r\source\repos\ac_cheat\Release\ac_cheat.dll
