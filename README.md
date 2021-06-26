@@ -6,5 +6,8 @@ It's not meant to be used for actual cheating in Assault Cube. I wasn't focused 
 There are options the cheat has:
 
  --Aimbot(Fov/Visibility/Team Check)
+ 
  --Visuals(Pseudo Chams/Walls)
+ 
  --Exploits(Only Headshot/Remote Kill/No Recoil&Spread/Trigger)
+ 
