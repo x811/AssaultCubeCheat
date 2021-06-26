@@ -11,3 +11,4 @@ There are options the cheat has:
  
  --Exploits(Only Headshot/Remote Kill/No Recoil&Spread/Trigger)
  
+Paired with SimpleInjector
