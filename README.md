@@ -2,7 +2,7 @@
 
 This Cheat Was Made Only In 5 Days Only For Educational Purposes. 
 
-There are options the cheat has:
+It features:
 
  --Aimbot(Fov/Visibility/Team Check)
  
