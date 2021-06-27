@@ -7,6 +7,12 @@
 #define MAKE_PAD(size) STR_MERGE(_pad, __COUNTER__)[size]
 #define DEFINE_MEMBER_N(type, name, offset) struct {unsigned char MAKE_PAD(offset); type name;}
 
+class Vector2
+{
+public:
+	float x, y;
+};
+
 class Vector3 {
 public:
 	//constructors

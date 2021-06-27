@@ -10,6 +10,12 @@ namespace vars
     bool m_bVisible = false;
     bool m_bTeamAim = false;
 
+    bool m_bESP = false;
+    bool m_bTeam = false;
+    bool m_bName = false;
+    bool m_bHealthBar = false;
+    bool m_bOffscreen = false;
+
     bool m_bPseudoWalls = false;
 
     bool m_bOnlyHeadShot = false;
@@ -61,6 +67,16 @@ void CMenu::Update()
                         ImGui::Checkbox("Visible", &vars::m_bVisible);
                         ImGui::Checkbox("Aim Teammates", &vars::m_bTeamAim);
                     }
+                    ImGui::EndTabItem();
+                }
+                if (ImGui::BeginTabItem("ESP"))
+                {
+                    ImGui::Checkbox("Enable", &vars::m_bESP);
+                    ImGui::Separator();
+                    ImGui::Checkbox("Team ESP", &vars::m_bTeam);
+                    ImGui::Checkbox("Name", &vars::m_bName);
+                    ImGui::Checkbox("Health Bar", &vars::m_bHealthBar);
+                    ImGui::Checkbox("Offscreen ESP", &vars::m_bOffscreen);
                     ImGui::EndTabItem();
                 }
                 if (ImGui::BeginTabItem("Visuals"))

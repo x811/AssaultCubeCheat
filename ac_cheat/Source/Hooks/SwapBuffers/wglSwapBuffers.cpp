@@ -9,6 +9,9 @@ BOOL __stdcall Hooks::wglSwapBuffers::Func(HDC hdc)
 	g_Manager.UpdateData();
 
 	g_Aimbot.Run();
+
+	g_Esp.Run();
+
 	g_Misc.SetHeadshot();
 	g_Misc.SetNoRecoil();
 	g_Misc.SetTeleKill();

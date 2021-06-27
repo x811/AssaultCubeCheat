@@ -2,6 +2,7 @@
 #include "../../Utils/CInitialization.h"
 #include "../../HookHelper/CHook.h"
 #include "../../Aimbot/CAimbot.h"
+#include "../../ESP/ESP.h"
 #include "../../Misc_Exploits/Misc.h"
 
 namespace Hooks

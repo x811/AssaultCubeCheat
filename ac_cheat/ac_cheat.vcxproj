@@ -157,6 +157,8 @@
     <ClCompile Include="MinHook\hook.c" />
     <ClCompile Include="MinHook\trampoline.c" />
     <ClCompile Include="Source\Aimbot\CAimbot.cpp" />
+    <ClCompile Include="Source\ESP\Drawing.cpp" />
+    <ClCompile Include="Source\ESP\ESP.cpp" />
     <ClCompile Include="Source\Hooks\glBegin\glBegin.cpp" />
     <ClCompile Include="Source\Hooks\glDrawElements\glDrawElements.cpp" />
     <ClCompile Include="Source\Hooks\SwapBuffers\wglSwapBuffers.cpp" />
@@ -186,6 +188,8 @@
     <ClInclude Include="MinHook\MinHook.h" />
     <ClInclude Include="MinHook\trampoline.h" />
     <ClInclude Include="Source\Aimbot\CAimbot.h" />
+    <ClInclude Include="Source\ESP\Drawing.h" />
+    <ClInclude Include="Source\ESP\ESP.h" />
     <ClInclude Include="Source\HookHelper\CHook.h" />
     <ClInclude Include="Source\Hooks\glBegin\glBegin.h" />
     <ClInclude Include="Source\Hooks\glDrawElements\glDrawElements.h" />

@@ -11,6 +11,12 @@ namespace vars
 	extern bool m_bVisible;
 	extern bool m_bTeamAim;
 
+	extern bool m_bESP;
+	extern bool m_bTeam;
+	extern bool m_bName;
+	extern bool m_bHealthBar;
+	extern bool m_bOffscreen;
+
 	extern bool m_bPseudoWalls;
 
 	extern bool m_bOnlyHeadShot;
